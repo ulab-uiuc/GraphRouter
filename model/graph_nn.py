@@ -69,7 +69,8 @@ class form_data:
         combined_edge=torch.tensor(combined_edge, dtype=torch.float).reshape(-1,2).to(self.device)
         combined_edge=torch.cat((edge_weight, combined_edge), dim=-1)
         data = Data(task_id=task_id,query_features=query_features, llm_features=llm_features, edge_index=edge_index,
-                        edge_attr=edge_weight,query_indices=query_indices, llm_indices=llm_indices,label=torch.tensor(label, dtype=torch.float),edge_mask=edge_mask,combined_edge=combined_edge,
+                        edge_attr=edge_weight,query_indices=query_indices, llm_indices=llm_indices,label=torch.tensor(label, dtype=torch.float).to(self.device),
+                        edge_mask=edge_mask,combined_edge=combined_edge,
                     train_mask=train_mask,valide_mask=valide_mask,test_mask=test_mask)
 
         return data
@@ -133,8 +134,8 @@ class GNN_prediction:
                 correct = (observe_idx == label_idx).sum().item()
                 total = label_idx.size(0)
                 validate_accuracy = correct / total
-                observe_idx_ = observe_idx.numpy()
-                label_idx_ = label_idx.numpy()
+                observe_idx_ = observe_idx.cpu().numpy()
+                label_idx_ = label_idx.cpu().numpy()
                 # calculate macro F1 score
                 f1 = f1_score(label_idx_, observe_idx_, average='macro')
                 loss_validate = self.criterion(predicted_edges_validate.reshape(-1), data_validate.label[mask_validate].reshape(-1))
