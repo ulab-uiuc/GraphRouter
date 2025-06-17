@@ -7,9 +7,9 @@
     <a href="http://arxiv.org/abs/2410.03834">
         <img alt="Build" src="https://img.shields.io/badge/arXiv-2410.11001-red?logo=arxiv">
     </a>
-    <!-- <a href="xxx">
+    <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">
         <img alt="Build" src="https://img.shields.io/badge/Twitter-black?logo=X">
-    </a> -->
+    </a>
     <a href="https://github.com/ulab-uiuc/GraphRouter/blob/master/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green">
     </a>
@@ -28,8 +28,8 @@
 
 <p align="center">
     <a href="https://ulab-uiuc.github.io/GraphRouter/">🌐 Project Page</a> |
-    <a href="http://arxiv.org/abs/2410.03834">📜 arXiv</a>
-    <!-- <a href="xxx">📮 Twitter Post</a> -->
+    <a href="http://arxiv.org/abs/2410.03834">📜 arXiv</a> |
+    <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">📮 Twitter Post</a>
 <p>
 
 
@@ -43,7 +43,10 @@
 
 ## News
 
-**[2025.01.22]** 🌟 GraphRouter is accepted for ICLR 2025.
+
+**[2025.06.18]** 🔥 **Router-R1** has officially been released, which is a cutting-edge, reinforcement learning-driven LLM router designed to enable seamless collaboration among multiple LLMs to tackle complex problems efficiently. Explore the project and get started here: [Router-R1](https://github.com/ulab-uiuc/Router-R1). Stay updated with the latest news and developments by following us on [Twitter](https://x.com/taofeng_uiuc)!
+
+**[2025.01.22]** 🌟 **GraphRouter** is accepted for ICLR 2025.
 
 
 
