@@ -49,12 +49,12 @@
 📊 We also benchmark GraphRouter on the collected [router dataset](https://huggingface.co/datasets/ulab-ai/Router-R1-Router-Dataset) in Router-R1, demonstrating its strong performance across multiple QA benchmarks under different LLM settings.
 
 📈 **GraphRouter Results on [Router Dataset](https://huggingface.co/datasets/ulab-ai/Router-R1-Router-Dataset) from Router-R1**
-| Base Model                     | NQ$^\dagger$   | TriviaQA | PopQA | HotpotQA$^\dagger$ | 2WikiMultiHopQA | Musique | Bamboogle  | Avg.  |
+| Base Model                     | NQ<sup>†</sup>   | TriviaQA | PopQA | HotpotQA<sup>†</sup> | 2WikiMultiHopQA | Musique | Bamboogle  | Avg.  |
 | ------------------------- | ----- | -------- | ----- | ----- | ----- | ------- | ----- | ----- |
 | **Qwen2.5-3B-Instruct**   | 0.276 | 0.586    | 0.280 | 0.234 | 0.180 | 0.076   | 0.448 | 0.297 |
 | **Llama-3.2-3B-Instruct** | 0.316 | 0.602    | 0.290 | 0.222 | 0.170 | 0.084   | 0.416 | 0.300 |
 
-- $^\dagger$ indicates in-domain evaluation; all others are out-of-domain.
+- <sup>†</sup> indicates in-domain evaluation; all others are out-of-domain.
 
 - Evaluation Metric: Exact Match
 
