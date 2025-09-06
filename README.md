@@ -43,6 +43,7 @@
 
 ## News
 
+**[2025.08.20]** 🚀 **FusionFactory** & **FusionBench** are here! Most LLM apps still rely on a single model — limiting capability & wasting tokens. **FusionBench** (14 tasks, 5 domains, 20 LLMs, 103M tokens) + **FusionFactory** (query-, thought-, and model-level fusion) unlock powerful multi-LLM collaboration. ✅ Results: FusionFactory consistently outperforms the best single LLM across 14 benchmarks. 📄 [Paper](https://arxiv.org/pdf/2507.10540?) | 💻 [Code](https://github.com/ulab-uiuc/FusionFactory) | 🐦 [Twitter](https://x.com/taofeng_uiuc)
 
 **[2025.06.18]** 🔥 **Router-R1** has officially been released, which is a cutting-edge, reinforcement learning-driven LLM router designed to enable seamless collaboration among multiple LLMs to tackle complex problems efficiently. Explore the project and get started here: [Router-R1](https://github.com/ulab-uiuc/Router-R1). Stay updated with the latest news and developments by following us on [Twitter](https://x.com/taofeng_uiuc)!
 
