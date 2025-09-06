@@ -123,6 +123,23 @@ Run experiments and print/save evaluation results on metrics Performance, Cost, 
 python run_exp.py --config_file [config]
 ```
 
+### Tricks for Adapting GraphRouter to Other Tasks and Datasets
+
+1. **Embedding Normalization**  
+   - Check whether input embeddings are normalized.  
+   - On some datasets, skipping normalization leads to suboptimal results.  
+
+2. **Network Initialization**  
+   - Experiment with different initialization methods.  
+   - Try varying random seeds or using alternative initialization schemes.  
+
+3. **Model Saving Strategy**  
+   - Instead of saving models based on highest accuracy, save checkpoints with the best evaluation set performance.  
+   - This can yield better results on certain tasks.  
+
+4. **Learning Rate Tuning**  
+   - Adjust learning rate carefully.  
+   - Slightly increasing it may help avoid local optima and improve stability.  
 
 
 
